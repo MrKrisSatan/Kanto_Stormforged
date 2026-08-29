@@ -1,0 +1,42 @@
+{
+  "schema": 1,
+  "id": "kanto_stormforged",
+  "title": "KANTO: STORMFORGED",
+  "version": "1.0.0",
+  "author": "MrKrisSatan",
+  "repo": "MrKrisSatan/Kanto_Stormforged",
+  "summary": "Storm-lit Yellow with 386-era Kanto, voxel worlds, visible wilds, weather, modern storage and autonomous rivals.",
+  "shell": "#203746",
+  "finish": "holo",
+  "label": "label.png",
+  "base": "yellow",
+  "engine": ">=0.1.86 <1.0.0",
+  "seal": "open",
+  "speeds": [1, 2],
+  "mods": [
+    {"id":"Kanto-Reforged","source":"github","repo":"1Jamie/Kanto-Reforged","version":"1.5.3","sha256":"544656e1c94636e5624e36b758b689df6d3ecd77a58590672d654e0b31d17aa3"},
+    {"id":"weather_fx","source":"github","repo":"MrKrisSatan/Weather-fx","version":"4.31.0","sha256":"64166aa10a53aca9a5a96afb286a3cecf6ad58d4f7f8ab56d3161b8ff2edc202"},
+    {"id":"weather_variants","source":"github","repo":"MrKrisSatan/WXpokes","version":"1.0.0","sha256":"a20a2a04c84e67d825a9fae9874cd7e9e00cde8e784efa57c102d910d3f5abcf"},
+    {"id":"ultron","source":"github","repo":"MrKrisSatan/Ultron","version":"2.47.1","sha256":"ba78bc4a4050ddeb011a5912357573128c9f4a3d9588a9dc811164559051ddfb"},
+    {"id":"overworld_wild_spawns","source":"github","repo":"YoDrehDenSwagAuf/overworld-spawn-mod","version":"2.1.9","sha256":"0ac172cd0f463f78f9544d8a02cc31596655699e879d9a02895ae5aef22923dd"},
+    {"id":"mystery-gift","source":"github","repo":"thorkdev/gen1recomp-mystery-gift","version":"0.1.0","sha256":"1cd5d6e6999daa3ad5c76646a2a915b3bae12edcd41e01d56a227df29c0a29ab"},
+    {"id":"DRAMALESS_SHAPE","source":"github","repo":"artyrambles/DRAMALESS_SHAPE","version":"2.0.3","sha256":"89f6fa078c78a6f6e34c98074ea50ff4f971eead992f27684b52eae0f4f5a1a2"},
+    {"id":"better_buildings","source":"github","repo":"HydroHomie31415/Better-Buildings","version":"1.16.0","sha256":"77614f4a42137e2c3f4b5aa26672c7ed6fc4008b5c9337bd9f3e65ed40268cdd"},
+    {"id":"HGSS_SPRITES","source":"github","repo":"LucianoNeo/gen1recomp-mods","version":"1.0.2","sha256":"893689848881460975851c62543ae467f1d2d33876285834616846903b7ce02f"},
+    {"id":"pokeball_colors","source":"github","repo":"mistermiracle3036/Pokeball-Colors","version":"0.1.33","sha256":"b917795ca60cc9eea06ba26fc4a02b6a4768ad9728d55a6f0373f9e5019278b6"},
+    {"id":"modern_pc_ui","source":"github","repo":"piftee/gen1recomp-modern-pc-ui","version":"0.4.1","sha256":"2ee50f7aec3b84320c35d29e76920851357f5e892e8ff08000a62344163f7d75"}
+  ],
+  "load_order": [
+    "Kanto-Reforged",
+    "weather_fx",
+    "weather_variants",
+    "ultron",
+    "overworld_wild_spawns",
+    "mystery-gift",
+    "DRAMALESS_SHAPE",
+    "better_buildings",
+    "HGSS_SPRITES",
+    "pokeball_colors",
+    "modern_pc_ui"
+  ]
+}
