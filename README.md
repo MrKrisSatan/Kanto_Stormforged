@@ -2,6 +2,8 @@
 
 ![KANTO: STORMFORGED cartridge label](label.png)
 
+**Latest release: v1.0.0**
+
 **KANTO: STORMFORGED** is a custom Gen1Recomp cartridge built on **Pokémon Yellow**, combining a rebuilt Kanto, dynamic weather, WX Pokémon, visible overworld encounters, voxel presentation, modern storage, Mystery Gift and autonomous robot rivals.
 
 The goal is a version of Kanto that feels alive rather than merely remastered: storms roll across routes, wild Pokémon inhabit the overworld, buildings have been rebuilt, battles and exploration gain modern presentation, and Ultron's autonomous trainers pursue their own journeys alongside the player.
