@@ -26,7 +26,7 @@ jobs:
       - name: Refresh Yellow-safe upstream pins
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python3 tools/update_pins.py --write --github-token "$GITHUB_TOKEN"
+        run: python3 tools/pinbot.py --write --github-token "$GITHUB_TOKEN"
 
       - name: Fetch official Gen1Recomp cartkit
         run: |
