@@ -12,7 +12,7 @@ on:
       - cart.json
       - upstreams.json
       - tools/make_label.py
-      - tools/update_pins.py
+      - tools/pinbot.py
       - .github/workflows/release.yml
       - .github/workflows/update-pins.yml
 
