@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "base_game": "yellow",
+  "check_prereleases": false,
+  "cart": [
+    {"id":"Kanto-Reforged","name":"Kanto Reforged","repo":"1Jamie/Kanto-Reforged","manifest_path":"manifest.json"},
+    {"id":"weather_fx","name":"Weather FX","repo":"MrKrisSatan/Weather-fx","manifest_path":"manifest.json"},
+    {"id":"weather_variants","name":"WX Pokémon / Weather Variants","repo":"MrKrisSatan/WXpokes","manifest_path":"manifest.json"},
+    {"id":"ultron","name":"Ultron","repo":"MrKrisSatan/Ultron","manifest_path":"manifest.json"},
+    {"id":"better_buildings","name":"Better Buildings","repo":"HydroHomie31415/Better-Buildings","manifest_path":"manifest.json"},
+    {"id":"HGSS_SPRITES","name":"HGSS Visual Overhaul","repo":"LucianoNeo/gen1recomp-mods","manifest_path":"manifest.json"},
+    {"id":"pokeball_colors","name":"Pokéball Colors","repo":"mistermiracle3036/Pokeball-Colors","manifest_path":"manifest.json"},
+    {"id":"kanto_balls","name":"Too Many Balls","repo":"mistermiracle3036/Too-Many-Balls","manifest_path":"kanto_balls/manifest.json"},
+    {"id":"damage_numbers","name":"Damage Numbers","repo":"eduardocalafell/gen1recomp-damage-numbers","manifest_path":"manifest.json"},
+    {"id":"evolve_in_battle","name":"Evolve in Battle","repo":"ZyranCZ/Evolve-in-Battle","manifest_path":"manifest.json"},
+    {"id":"running_shoes","name":"Running Shoes","repo":"thorkdev/gen1recomp-running-shoes","manifest_path":"manifest.json"},
+    {"id":"BATTLE_ART_VOXEL_GEN2","name":"Battle Art","repo":"absol89/Gen2Recomped-DramaticShapes","manifest_path":"manifest.json","allow_prerelease":true}
+  ],
+  "companions": [
+    {"id":"recomp-autosave","name":"Auto Save","repo":"Czajo/gen1recomp-autosave","manifest_path":"manifest.json"},
+    {"id":"SFXMusicReplacementMod","name":"Music Replacement Mod","repo":"AlucardTheFirstHunter/MusicReplacementMod","manifest_path":"SFXMusicReplacementMod/manifest.json"},
+    {"id":"CryReplacementMod","name":"Cry Replacement Mod","repo":"AlucardTheFirstHunter/CryReplacementMod","manifest_path":"CryReplacementMod/manifest.json"}
+  ]
+}
