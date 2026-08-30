@@ -2,41 +2,118 @@
   "schema": 1,
   "id": "kanto_stormforged",
   "title": "KANTO: STORMFORGED",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "MrKrisSatan",
   "repo": "MrKrisSatan/Kanto_Stormforged",
-  "summary": "Storm-lit Yellow with 386-era Kanto, voxel worlds, visible wilds, weather, modern storage and autonomous rivals.",
+  "summary": "A Yellow-first Stormforged Kanto with weather, WX Pokémon, autonomous robots and Battle Art.",
   "shell": "#203746",
   "finish": "holo",
   "label": "label.png",
   "base": "yellow",
   "engine": ">=0.1.86 <1.0.0",
   "seal": "open",
-  "speeds": [1, 2],
+  "speeds": [
+    1,
+    2
+  ],
   "mods": [
-    {"id":"Kanto-Reforged","source":"github","repo":"1Jamie/Kanto-Reforged","version":"1.5.3","sha256":"544656e1c94636e5624e36b758b689df6d3ecd77a58590672d654e0b31d17aa3"},
-    {"id":"weather_fx","source":"github","repo":"MrKrisSatan/Weather-fx","version":"4.31.0","sha256":"64166aa10a53aca9a5a96afb286a3cecf6ad58d4f7f8ab56d3161b8ff2edc202"},
-    {"id":"weather_variants","source":"github","repo":"MrKrisSatan/WXpokes","version":"1.0.0","sha256":"a20a2a04c84e67d825a9fae9874cd7e9e00cde8e784efa57c102d910d3f5abcf"},
-    {"id":"ultron","source":"github","repo":"MrKrisSatan/Ultron","version":"2.47.1","sha256":"ba78bc4a4050ddeb011a5912357573128c9f4a3d9588a9dc811164559051ddfb"},
-    {"id":"overworld_wild_spawns","source":"github","repo":"YoDrehDenSwagAuf/overworld-spawn-mod","version":"2.1.9","sha256":"0ac172cd0f463f78f9544d8a02cc31596655699e879d9a02895ae5aef22923dd"},
-    {"id":"mystery-gift","source":"github","repo":"thorkdev/gen1recomp-mystery-gift","version":"0.1.0","sha256":"1cd5d6e6999daa3ad5c76646a2a915b3bae12edcd41e01d56a227df29c0a29ab"},
-    {"id":"DRAMALESS_SHAPE","source":"github","repo":"artyrambles/DRAMALESS_SHAPE","version":"2.0.3","sha256":"89f6fa078c78a6f6e34c98074ea50ff4f971eead992f27684b52eae0f4f5a1a2"},
-    {"id":"better_buildings","source":"github","repo":"HydroHomie31415/Better-Buildings","version":"1.16.0","sha256":"77614f4a42137e2c3f4b5aa26672c7ed6fc4008b5c9337bd9f3e65ed40268cdd"},
-    {"id":"HGSS_SPRITES","source":"github","repo":"LucianoNeo/gen1recomp-mods","version":"1.0.2","sha256":"893689848881460975851c62543ae467f1d2d33876285834616846903b7ce02f"},
-    {"id":"pokeball_colors","source":"github","repo":"mistermiracle3036/Pokeball-Colors","version":"0.1.33","sha256":"b917795ca60cc9eea06ba26fc4a02b6a4768ad9728d55a6f0373f9e5019278b6"},
-    {"id":"modern_pc_ui","source":"github","repo":"piftee/gen1recomp-modern-pc-ui","version":"0.4.1","sha256":"2ee50f7aec3b84320c35d29e76920851357f5e892e8ff08000a62344163f7d75"}
+    {
+      "id": "Kanto-Reforged",
+      "source": "github",
+      "repo": "1Jamie/Kanto-Reforged",
+      "version": "1.5.3",
+      "sha256": "544656e1c94636e5624e36b758b689df6d3ecd77a58590672d654e0b31d17aa3"
+    },
+    {
+      "id": "weather_fx",
+      "source": "github",
+      "repo": "MrKrisSatan/Weather-fx",
+      "version": "4.31.2",
+      "sha256": "2f375d9374e360f7719e125f825e4b6596958e4fab8e1e3bb6df7bea7a9d092c"
+    },
+    {
+      "id": "weather_variants",
+      "source": "github",
+      "repo": "MrKrisSatan/WXpokes",
+      "version": "1.2.0",
+      "sha256": "5b9e59931c41a3ec663d5b04fb83a7e8b3950decefcdb6210edee818134741e7"
+    },
+    {
+      "id": "ultron",
+      "source": "github",
+      "repo": "MrKrisSatan/Ultron",
+      "version": "2.86.0",
+      "sha256": "ffe536972bfcc914cf9b3965b3f476f6f29b1244ed525f59929f2e5fa2435629"
+    },
+    {
+      "id": "better_buildings",
+      "source": "github",
+      "repo": "HydroHomie31415/Better-Buildings",
+      "version": "1.16.0",
+      "sha256": "77614f4a42137e2c3f4b5aa26672c7ed6fc4008b5c9337bd9f3e65ed40268cdd"
+    },
+    {
+      "id": "HGSS_SPRITES",
+      "source": "github",
+      "repo": "LucianoNeo/gen1recomp-mods",
+      "version": "1.0.2",
+      "sha256": "893689848881460975851c62543ae467f1d2d33876285834616846903b7ce02f"
+    },
+    {
+      "id": "pokeball_colors",
+      "source": "github",
+      "repo": "mistermiracle3036/Pokeball-Colors",
+      "version": "0.1.64",
+      "sha256": "c7182fb6a1bb1ba43969ae725355e69cdaa3c71e6ea696f26f59e5058896fa76"
+    },
+    {
+      "id": "kanto_balls",
+      "source": "github",
+      "repo": "mistermiracle3036/Too-Many-Balls",
+      "version": "0.8.8",
+      "sha256": "af89e632eb429f0fe0bfe796bfa6ffb9b4b7f3603e82c331a07675f87db1abc0"
+    },
+    {
+      "id": "damage_numbers",
+      "source": "github",
+      "repo": "eduardocalafell/gen1recomp-damage-numbers",
+      "version": "0.4.0",
+      "sha256": "9dedaf11810e9699abe84b7307f3ce3b136ae19267f8629103ae8712dbd7837a"
+    },
+    {
+      "id": "evolve_in_battle",
+      "source": "github",
+      "repo": "ZyranCZ/Evolve-in-Battle",
+      "version": "2.0.3",
+      "sha256": "7c50fc3231d062a822c7ec150a7d271f7f4878a45f5011b029c3a41f5cd61a19"
+    },
+    {
+      "id": "running_shoes",
+      "source": "github",
+      "repo": "thorkdev/gen1recomp-running-shoes",
+      "version": "0.3.0",
+      "sha256": "af194a0fe7859c6d00a64cb6d1e054b08280041bd2060c8139da2db7fcdd1177"
+    },
+    {
+      "id": "BATTLE_ART_VOXEL_GEN2",
+      "source": "github",
+      "repo": "absol89/Gen2Recomped-DramaticShapes",
+      "version": "2.0.3",
+      "sha256": "d9a5a6e8b2917b1e4b2c3b84eb32ab9e84f82e181b3d305cdca4c8c61ce9afff"
+    }
   ],
   "load_order": [
     "Kanto-Reforged",
     "weather_fx",
     "weather_variants",
     "ultron",
-    "overworld_wild_spawns",
-    "mystery-gift",
-    "DRAMALESS_SHAPE",
     "better_buildings",
     "HGSS_SPRITES",
     "pokeball_colors",
-    "modern_pc_ui"
+    "kanto_balls",
+    "damage_numbers",
+    "evolve_in_battle",
+    "running_shoes",
+    "BATTLE_ART_VOXEL_GEN2"
   ]
 }
