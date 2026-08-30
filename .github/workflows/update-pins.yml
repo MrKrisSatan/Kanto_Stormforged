@@ -1,0 +1,63 @@
+name: Refresh STORMFORGED mod pins
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */6 * * *"
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: stormforged-pin-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Refresh Yellow-safe upstream pins
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 tools/update_pins.py --write --github-token "$GITHUB_TOKEN"
+
+      - name: Fetch official Gen1Recomp cartkit
+        run: |
+          curl -fsSL --retry 3 \
+            -o "$RUNNER_TEMP/cartkit.py" \
+            https://raw.githubusercontent.com/bryanthaboi/gen1recomp/dev/tools/cartkit.py
+          python3 "$RUNNER_TEMP/cartkit.py" selftest --quiet
+
+      - name: Validate candidate cart
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 "$RUNNER_TEMP/cartkit.py" validate . --strict --online
+
+      - name: Commit changed pins
+        id: commit
+        shell: bash
+        run: |
+          git config user.name "stormforged-pinbot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add cart.json SOURCES.md COMPANIONS.md RELEASE_NOTES.md
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          VERSION="$(python3 -c 'import json; print(json.load(open("cart.json"))["version"])')"
+          git commit -m "Auto-update STORMFORGED pins to v$VERSION"
+          git push origin HEAD:main
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Publish refreshed cart
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run release.yml --ref main
