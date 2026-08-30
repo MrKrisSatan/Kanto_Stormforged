@@ -14,7 +14,7 @@
     {"id":"damage_numbers","name":"Damage Numbers","repo":"eduardocalafell/gen1recomp-damage-numbers","manifest_path":"manifest.json"},
     {"id":"evolve_in_battle","name":"Evolve in Battle","repo":"ZyranCZ/Evolve-in-Battle","manifest_path":"manifest.json"},
     {"id":"running_shoes","name":"Running Shoes","repo":"thorkdev/gen1recomp-running-shoes","manifest_path":"manifest.json"},
-    {"id":"BATTLE_ART_VOXEL_GEN2","name":"Battle Art","repo":"absol89/Gen2Recomped-DramaticShapes","manifest_path":"manifest.json"}
+    {"id":"BATTLE_ART_VOXEL_GEN2","name":"Battle Art","repo":"absol89/Gen2Recomped-DramaticShapes","manifest_path":"manifest.json","allow_prerelease":true}
   ],
   "companions": [
     {"id":"recomp-autosave","name":"Auto Save","repo":"Czajo/gen1recomp-autosave","manifest_path":"manifest.json"},
