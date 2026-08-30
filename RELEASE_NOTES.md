@@ -1,34 +1,33 @@
-# KANTO: STORMFORGED v1.0.0 ⚡🌧️
+# KANTO: STORMFORGED v1.1.0 ⚡🌧️
 
-The first public release of **KANTO: STORMFORGED**, a Pokémon Yellow custom cart for Gen1Recomp.
+A Yellow-focused rebuild of the STORMFORGED cart plus automatic upstream maintenance.
 
-## Highlights
+## Cart changes
 
-- Kanto Reforged as the foundational gameplay/content overhaul
-- Dynamic Weather FX and WX Pokémon
-- Ultron autonomous robot rivals
-- Wilds of Kanto visible overworld encounters and followers
-- Dramaless Shape voxel environments
-- Better Buildings FireRed-inspired Kanto exteriors
-- HGSS Visual Overhaul
-- Modern PC UI
-- Pokéball Colors
-- Daily Mystery Gift
-- Curated load order and exact SHA-256 release pins
-- Original STORMFORGED cartridge label artwork
+- Replaced Dramaless Shape with Battle Art.
+- Removed Wilds of Kanto because Battle Art flags the pairing as risky.
+- Removed Modern PC UI because Battle Art flags the pairing as risky.
+- Removed Mystery Gift because it is not part of the requested lineup.
+- Updated Weather FX to 4.31.2.
+- Updated WX Pokémon / Weather Variants to 1.2.0.
+- Updated Ultron to 2.86.0.
+- Updated Pokéball Colors to 0.1.64.
+- Added Too Many Balls 0.8.8.
+- Added Damage Numbers 0.4.0.
+- Added Evolve in Battle 2.0.3.
+- Added Running Shoes 0.3.0.
+- Added Yellow-safe Battle Art 2.0.3.
 
-## Download
+## Automatic upstream updates
 
-For normal installation, download **`kanto_stormforged-1.0.0.g1rcart`** and import it through Gen1Recomp.
+A new scheduled GitHub Actions workflow checks all native upstreams every six hours.
 
-`KANTO_STORMFORGED_v1.0.0.zip` contains the cart manifest, label artwork, README, source/checksum records and the `.g1rcart` together.
+It only accepts releases whose tags are cart-resolvable semantic versions, whose tagged manifests have the expected mod IDs, and whose game targeting includes Yellow/Gen1. Archive SHA-256s are verified before the cart is changed.
 
-## Running Shoes
+When native pins change, STORMFORGED automatically bumps its patch version, validates the complete cart with Gen1Recomp's official online cart validator and publishes a new latest release.
 
-Running Shoes 1.1.2 is part of the intended 12-mod setup but must currently be installed separately because its upstream GitHub release uses the nonstandard tag `jj_running_shoes-v1.1.2`, which Gen1Recomp's current native cart pin resolver cannot represent.
+Battle Art's newer Gen2-only builds therefore do not replace the Yellow-safe pin.
 
-## Better Buildings
+## Companion tracking
 
-The cart pins Better Buildings **1.16.0** because the newer 1.19.0 build is published under the non-semver tag `night`. Version 1.16.0 is the newest conventionally tagged release the stock cart resolver can reproduce.
-
-Enjoy the thundercloud. ⚡
+Auto Save, Music Replacement Mod and Cry Replacement Mod are tracked separately because their current upstream GitHub release tags are non-semantic and cannot be represented by the current native cart resolver. Their latest Yellow-safe hashes are maintained in `COMPANIONS.md`.
