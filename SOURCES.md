@@ -15,7 +15,7 @@ Every native cart mod is pinned to an exact GitHub release and SHA-256. The sche
 | Damage Numbers | eduardocalafell/gen1recomp-damage-numbers | 0.4.0 | `9dedaf11810e9699abe84b7307f3ce3b136ae19267f8629103ae8712dbd7837a` |
 | Evolve in Battle | ZyranCZ/Evolve-in-Battle | 2.0.3 | `7c50fc3231d062a822c7ec150a7d271f7f4878a45f5011b029c3a41f5cd61a19` |
 | Running Shoes | thorkdev/gen1recomp-running-shoes | 0.3.0 | `af194a0fe7859c6d00a64cb6d1e054b08280041bd2060c8139da2db7fcdd1177` |
-| Battle Art | absol89/Gen2Recomped-DramaticShapes | 2.0.5 | `f610cedcdb5560ae9e6919f01d5e5294fb1865d8f4691468a4545b849c3745ea` |
+| Battle Art | absol89/Gen2Recomped-DramaticShapes | 2.0.7 | `b8d667c56c07c0174c98702503dea53eb4c7159c6a31264b6e9dbd4905e64847` |
 
 ## Automatic update safety
 
