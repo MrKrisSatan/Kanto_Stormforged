@@ -5,7 +5,7 @@ Every native cart mod is pinned to an exact GitHub release and SHA-256. The sche
 | Mod | Repository | Version | SHA-256 |
 | --- | --- | ---: | --- |
 | Kanto Reforged | 1Jamie/Kanto-Reforged | 1.7.3 | `4f89f99b0e350736d31c0935d19fd35a2feac95dcfb7d460313eefea498f431d` |
-| Weather FX | MrKrisSatan/Weather-fx | 4.35.32 | `cdb2e6ee0725cfe235327e2df8db4c78052ad42d9b49f13c8228b51c40c72424` |
+| Weather FX | MrKrisSatan/Weather-fx | 8.1.53 | `f861f15107cd544de30f15798543767d77db3ad6b79f041e59e8f9b60c1a883d` |
 | WX Pokémon / Weather Variants | MrKrisSatan/WXpokes | 1.4.1 | `73d06a03ef1139fac5ef93171d606632dbb39379d688004249c778e604c75c28` |
 | Ultron | MrKrisSatan/Ultron | 2.1.1 | `bddf75353eade495b5f1998b7b319bd1b66070834f856da70bf3061130d8ffad` |
 | Better Buildings | HydroHomie31415/Better-Buildings | 1.16.0 | `77614f4a42137e2c3f4b5aa26672c7ed6fc4008b5c9337bd9f3e65ed40268cdd` |
