@@ -6,7 +6,7 @@ Every native cart mod is pinned to an exact GitHub release and SHA-256. The sche
 | --- | --- | ---: | --- |
 | Kanto Reforged | 1Jamie/Kanto-Reforged | 1.7.3 | `4f89f99b0e350736d31c0935d19fd35a2feac95dcfb7d460313eefea498f431d` |
 | Weather FX | MrKrisSatan/Weather-fx | 4.35.32 | `cdb2e6ee0725cfe235327e2df8db4c78052ad42d9b49f13c8228b51c40c72424` |
-| WX Pokémon / Weather Variants | MrKrisSatan/WXpokes | 1.4.0 | `f9dfaabd7881cbc56408281de3161d28e9f8f330c243ecbcd5ca925a866ac90c` |
+| WX Pokémon / Weather Variants | MrKrisSatan/WXpokes | 1.4.1 | `73d06a03ef1139fac5ef93171d606632dbb39379d688004249c778e604c75c28` |
 | Ultron | MrKrisSatan/Ultron | 2.1.1 | `bddf75353eade495b5f1998b7b319bd1b66070834f856da70bf3061130d8ffad` |
 | Better Buildings | HydroHomie31415/Better-Buildings | 1.16.0 | `77614f4a42137e2c3f4b5aa26672c7ed6fc4008b5c9337bd9f3e65ed40268cdd` |
 | HGSS Visual Overhaul | LucianoNeo/gen1recomp-mods | 1.0.5 | `229fd2b4cdc4bd325bcb236f0d27874dcc393ef678a92097de84fd5ec39d42e8` |
