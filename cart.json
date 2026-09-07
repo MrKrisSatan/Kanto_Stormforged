@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "kanto_stormforged",
   "title": "KANTO: STORMFORGED",
-  "version": "1.1.11",
+  "version": "1.1.12",
   "author": "MrKrisSatan",
   "repo": "MrKrisSatan/Kanto_Stormforged",
   "summary": "A Yellow-first Stormforged Kanto with weather, WX Pokémon, autonomous robots and Battle Art.",
@@ -28,8 +28,8 @@
       "id": "weather_fx",
       "source": "github",
       "repo": "MrKrisSatan/Weather-fx",
-      "version": "8.1.53",
-      "sha256": "f861f15107cd544de30f15798543767d77db3ad6b79f041e59e8f9b60c1a883d"
+      "version": "8.1.59",
+      "sha256": "af4707115b9957b6ee85a836c57194526887be7dcf7ac74be94130642dd8eeb8"
     },
     {
       "id": "weather_variants",
