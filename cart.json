@@ -2,7 +2,7 @@
   "schema": 1,
   "id": "kanto_stormforged",
   "title": "KANTO: STORMFORGED",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "author": "MrKrisSatan",
   "repo": "MrKrisSatan/Kanto_Stormforged",
   "summary": "A Yellow-first Stormforged Kanto with weather, WX Pokémon, autonomous robots and Battle Art.",
@@ -56,15 +56,15 @@
       "id": "HGSS_SPRITES",
       "source": "github",
       "repo": "LucianoNeo/gen1recomp-mods",
-      "version": "1.0.5",
-      "sha256": "229fd2b4cdc4bd325bcb236f0d27874dcc393ef678a92097de84fd5ec39d42e8"
+      "version": "2.0.0",
+      "sha256": "d7d10a088a9e49dbc806a29791395c1a6835e366ab55a5c9f47296f709246923"
     },
     {
       "id": "pokeball_colors",
       "source": "github",
       "repo": "mistermiracle3036/Pokeball-Colors",
-      "version": "0.1.71",
-      "sha256": "ad42b5dcaf9541de39e2da852cb376e60c513b1b2df29bb665b15edc90abdeab"
+      "version": "0.1.73",
+      "sha256": "e58a074ef943b9a375beaca0b6d97c2656b7c0330e08bcaa97af8c1b17a28dfc"
     },
     {
       "id": "kanto_balls",
