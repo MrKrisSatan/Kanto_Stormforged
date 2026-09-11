@@ -9,7 +9,7 @@ Every native cart mod is pinned to an exact GitHub release and SHA-256. The sche
 | WX Pokémon / Weather Variants | MrKrisSatan/WXpokes | 1.4.1 | `73d06a03ef1139fac5ef93171d606632dbb39379d688004249c778e604c75c28` |
 | Ultron | MrKrisSatan/Ultron | 2.1.1 | `bddf75353eade495b5f1998b7b319bd1b66070834f856da70bf3061130d8ffad` |
 | Better Buildings | HydroHomie31415/Better-Buildings | 1.16.0 | `77614f4a42137e2c3f4b5aa26672c7ed6fc4008b5c9337bd9f3e65ed40268cdd` |
-| HGSS Visual Overhaul | LucianoNeo/gen1recomp-mods | 2.1.0 | `e31ecc342f716fb689af6db5b53e986446392c49b441bf439740180aa8646019` |
+| HGSS Visual Overhaul | LucianoNeo/gen1recomp-mods | 2.1.1 | `0fc9b64b27e8cb387e80869d32e0bbf90419c9602d827d39128c73c5e1b14308` |
 | Pokéball Colors | mistermiracle3036/Pokeball-Colors | 0.1.73 | `e58a074ef943b9a375beaca0b6d97c2656b7c0330e08bcaa97af8c1b17a28dfc` |
 | Too Many Balls | mistermiracle3036/Too-Many-Balls | 0.8.8 | `af89e632eb429f0fe0bfe796bfa6ffb9b4b7f3603e82c331a07675f87db1abc0` |
 | Damage Numbers | eduardocalafell/gen1recomp-damage-numbers | 0.4.0 | `9dedaf11810e9699abe84b7307f3ce3b136ae19267f8629103ae8712dbd7837a` |
