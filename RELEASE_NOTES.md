@@ -1,10 +1,10 @@
-# KANTO: STORMFORGED v1.1.26 ⚡🌧️
+# KANTO: STORMFORGED v1.1.27 ⚡🌧️
 
 Automated Yellow-safe upstream refresh.
 
 ## Updated pins
 
-- HGSS Visual Overhaul: 2.1.3 → 2.1.4
+- Kanto Reforged: 1.7.3 → 1.7.8
 
 All candidate pins passed semantic-tag, manifest-ID, Yellow/Gen1 target and SHA-256 checks.
 Battle Art remains preferred; Wilds of Kanto and Modern PC UI remain excluded.
